@@ -55,18 +55,70 @@
 //Essa função percorre uma lista de produtos e calcula a soma de todos os seus preços, retornando o valor total.
 
 
-//5-Verificar Comprimento do Username:
-
-
+//5-Verificar Comprimento do Username
+//     // função que verifica se o comprimento de um username está entre 3 e 10 caracteres
+// function usernameValido(username) {
+//     // (se o comprimento do username for entre 3 e 10 caracteres, retorna true
+//     return username.length >= 3 && username.length <= 10;
+// }
+// console.log(usernameValido("João"));
+//     // (exibe true (tamanho entre 3 e 10)
+// console.log(usernameValido("Ab"));  
+//     // (exibe false (tamanho menor que 3)
+// console.log(usernameValido("SuperUsername"));
+//     // (exibe false (tamanho maior que 10)
+ 
 
 //6-Contar Espaços
-
+// função que conta quantos espaços em branco existem em uma frase
+// function contarEspacos(frase) {
+//     let contador = 0;  // Variável para contar os espaços
+//     (loop para percorrer cada caractere da frase
+//     for (let i = 0; i < frase.length; i++) {
+//         if (frase[i] === " ") {  
+//     (se o caractere for um espaço
+//             contador++;  
+//     // encrementa o contador
+//         }
+//     }
+//     return contador;  
+//    (retorna a quantidade de espaços encontrados
+// }
+// console.log(contarEspacos("Olá mundo, como vai?"));  
+//     (exibe a quantidade de espaços na frase
 
 
 //7-Criar String com Hífens
-
+// (função que junta palavras de um array com hífens entre elas
+// function juntarComHifens(palavras) {
+//     return palavras.join("-");  
+//    // (usa o método 'join' para juntar as palavras com hífen
+// }
+// console.log(juntarComHifens(["um", "dois", "tres"]));  
+//    //( exibe "um-dois-tres"
 
 
 //8-Primeira Letra de Cada Palavra
-
+ // função que retorna as iniciais de cada palavra em um nome completo
+// function pegarIniciais(nomeCompleto) {
+//     let iniciais = "";  
+//     // variável para armazenar as iniciais
+//     // divide o nome completo em palavras
+//     let palavras = nomeCompleto.split(" ");
+//     // loop para percorrer todas as palavras do nome
+//     for (let i = 0; i < palavras.length; i++) {
+//         iniciais += palavras[i][0].toUpperCase();  
+//     // adiciona a primeira letra de cada palavra
+//     }
+//     return iniciais;  
+//     // retorna as iniciais
+// }
+// console.log(pegarIniciais("Sophia Fabri"));  
+//     // exibe "SF"
+// function pegarPrimeiraLetra(texto) {
+//     return texto[0];  
+//     // retorna o primeiro caractere da string
+// }
+// console.log(pegarPrimeiraLetra("Sophia"));  
+//     // exibe "S"
 
